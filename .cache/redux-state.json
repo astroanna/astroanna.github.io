@@ -1145,12 +1145,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-25T02:08:30.044Z",
+      "buildTime": "2018-10-25T02:14:04.142Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e3ebc94211314bdc3a63a8d9f397462b",
+        "contentDigest": "e60405419c58b1276ebc57bcd7d6d8c7",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1160,7 +1160,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "351a3cb0bb8cb69a44c790ee294eecef",
+        "contentDigest": "97cff8e7982f642f6d9403843cfa13ec",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1171,7 +1171,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2018-10-23T19:15:19.219Z",
-      "accessTime": "2018-10-25T02:08:32.378Z",
+      "accessTime": "2018-10-25T02:14:06.172Z",
       "changeTime": "2018-10-25T01:32:04.463Z",
       "birthTime": "2018-10-23T19:15:19.202Z",
       "root": "/",
@@ -1189,11 +1189,11 @@
       "blksize": 4194304,
       "ino": 8600773302,
       "blocks": 0,
-      "atimeMs": 1540433312378.0361,
+      "atimeMs": 1540433646172.3286,
       "mtimeMs": 1540322119219.2278,
       "ctimeMs": 1540431124462.991,
       "birthtimeMs": 1540322119201.6716,
-      "atime": "2018-10-25T02:08:32.378Z",
+      "atime": "2018-10-25T02:14:06.172Z",
       "mtime": "2018-10-23T19:15:19.219Z",
       "ctime": "2018-10-25T01:32:04.463Z",
       "birthtime": "2018-10-23T19:15:19.202Z"
@@ -1203,7 +1203,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ddf7b1ebbcef9ebeb39e969bf3c745bd",
+        "contentDigest": "31f2e6008e2617e212260ba4e97cb6dc",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1214,7 +1214,7 @@
       "size": 352,
       "prettySize": "352 B",
       "modifiedTime": "2018-10-23T19:15:19.218Z",
-      "accessTime": "2018-10-25T02:08:32.465Z",
+      "accessTime": "2018-10-25T02:14:06.177Z",
       "changeTime": "2018-10-25T01:32:04.459Z",
       "birthTime": "2018-10-23T19:15:19.206Z",
       "root": "/",
@@ -1232,11 +1232,11 @@
       "blksize": 4194304,
       "ino": 8600773308,
       "blocks": 0,
-      "atimeMs": 1540433312464.6953,
+      "atimeMs": 1540433646176.6472,
       "mtimeMs": 1540322119218.0715,
       "ctimeMs": 1540431124458.587,
       "birthtimeMs": 1540322119205.7332,
-      "atime": "2018-10-25T02:08:32.465Z",
+      "atime": "2018-10-25T02:14:06.177Z",
       "mtime": "2018-10-23T19:15:19.218Z",
       "ctime": "2018-10-25T01:32:04.459Z",
       "birthtime": "2018-10-23T19:15:19.206Z"
@@ -1246,7 +1246,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f14b8a940c6b1be47e18f818599fa78a",
+        "contentDigest": "48566401ab0c2e2d3b7516fd62cbe0b0",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1257,7 +1257,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2018-10-23T19:15:19.217Z",
-      "accessTime": "2018-10-25T02:08:32.485Z",
+      "accessTime": "2018-10-25T02:14:06.178Z",
       "changeTime": "2018-10-25T01:32:04.454Z",
       "birthTime": "2018-10-23T19:15:19.211Z",
       "root": "/",
@@ -1275,11 +1275,11 @@
       "blksize": 4194304,
       "ino": 8600773315,
       "blocks": 0,
-      "atimeMs": 1540433312485.3604,
+      "atimeMs": 1540433646178.2952,
       "mtimeMs": 1540322119216.5864,
       "ctimeMs": 1540431124454.021,
       "birthtimeMs": 1540322119210.7766,
-      "atime": "2018-10-25T02:08:32.485Z",
+      "atime": "2018-10-25T02:14:06.178Z",
       "mtime": "2018-10-23T19:15:19.217Z",
       "ctime": "2018-10-25T01:32:04.454Z",
       "birthtime": "2018-10-23T19:15:19.211Z"
@@ -2568,7 +2568,7 @@
       "component": "/Users/annagassen/Desktop/astroanna.github.io/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1540433312785,
+      "updatedAt": 1540433646546,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/annagassen/Desktop/astroanna.github.io/src/pages/404.js",
@@ -2577,7 +2577,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4d6e1468995b6c52c87c1e1cddf8b6e9",
+        "contentDigest": "be30251f9d75ffa24877ec245e5ccfd0",
         "owner": "internal-data-bridge"
       }
     },
@@ -2589,7 +2589,7 @@
       "component": "/Users/annagassen/Desktop/astroanna.github.io/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1540433312786,
+      "updatedAt": 1540433646547,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/annagassen/Desktop/astroanna.github.io/src/pages/index.js",
@@ -2598,7 +2598,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c0557064a3a2c5260807e7cf6b85a8de",
+        "contentDigest": "4e0934834eed0383903e1616a439e0a9",
         "owner": "internal-data-bridge"
       }
     },
@@ -2610,7 +2610,7 @@
       "component": "/Users/annagassen/Desktop/astroanna.github.io/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1540433312789,
+      "updatedAt": 1540433646549,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "/Users/annagassen/Desktop/astroanna.github.io/src/pages/404.js",
@@ -2619,7 +2619,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "94992c133da8fee4e0ca374d6d249584",
+        "contentDigest": "f5ccbf26b3107e50dd457ac90f93e596",
         "owner": "internal-data-bridge"
       }
     }

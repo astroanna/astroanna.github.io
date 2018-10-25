@@ -1,0 +1,2635 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "pluginFilepath": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "25c1cb84179b14809a5a5548e61a2631",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "pluginFilepath": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "36446be034c6caae4437af82ddc661ff",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "pluginFilepath": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e39b762b7a46cec1f5c7297ba51549c7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "pluginFilepath": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4b504797ee600639c5c9e9487d509a4b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "pluginFilepath": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "981654688d5e60ad0414253efc73c4d6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "pluginFilepath": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "033797d1d51130dd7b810f2131839c22",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-typography": {
+      "resolve": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-plugin-typography",
+      "id": "Plugin gatsby-plugin-typography",
+      "name": "gatsby-plugin-typography",
+      "version": "1.7.10",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography.js"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "pluginFilepath": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "1.7.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5bdf580d40141f991e1a7f2727e1b420",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.9",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes"
+      ],
+      "pluginFilepath": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.9",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "159561f52838e7220ed4f076adbb63fe",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-fonts": {
+      "resolve": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-plugin-google-fonts",
+      "id": "Plugin gatsby-plugin-google-fonts",
+      "name": "gatsby-plugin-google-fonts",
+      "version": "0.0.3",
+      "pluginOptions": {
+        "plugins": [],
+        "fonts": [
+          "librebaskerville",
+          "open sans"
+        ]
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-plugin-google-fonts",
+      "packageJson": {
+        "name": "gatsby-plugin-google-fonts",
+        "description": "Bring Google Fonts to Gatsby",
+        "version": "0.0.3",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "react",
+          "google",
+          "fonts"
+        ],
+        "author": {
+          "name": "Didier Franc",
+          "email": "dev@didierfranc.com"
+        },
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bee073c446ad892bc6b8524312107d4c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.23",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.36",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 630
+            },
+            "nodeAPIs": [],
+            "pluginFilepath": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-remark-copy-linked-files",
+            "id": "Plugin gatsby-remark-copy-linked-files",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "1.5.25",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "pluginFilepath": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-remark-copy-linked-files"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "pluginFilepath": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.23",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^2.1.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "10808d0ddd05c16447a8cfb8bce42906",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.36",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 630
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.36",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark",
+          "image",
+          "responsive images"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.24"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "cf3faa892dee71f761aee68c2f6989f3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-copy-linked-files": {
+      "resolve": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-remark-copy-linked-files",
+      "id": "Plugin gatsby-remark-copy-linked-files",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "1.5.25",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "1.5.25",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "image-size",
+            "version": "^0.6.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7e67db561bbe2c5bb364e639a98cb450",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.6.16",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "pluginFilepath": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.6.16",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sharp",
+          "image"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "image-size",
+            "version": "^0.6.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "45fca92c356ab09c7a359146cb97f2e1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.24",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.24",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "image-size",
+            "version": "^0.5.1"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.17.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "02564879026cfcfd34985116df839d00",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": {
+          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "37bbac4e7f9c1029944d3fe8c9240317",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.15",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "pluginFilepath": "/Users/annagassen/Desktop/astroanna.github.io/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.15",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "extract-text-webpack-plugin",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.8"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0e9c80e454a0ccf9642702a3b741f41b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/annagassen/Desktop/astroanna.github.io",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "a92325b16005be4cee9829690210fe3f",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/annagassen/Desktop/astroanna.github.io",
+      "packageJson": {
+        "name": "gatsby-starter-ceevee",
+        "description": "Gatsby Starter - CeeVee ",
+        "version": "1.0.1",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Aman Mittal <amandeepmittal@live.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.145"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.32"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.12"
+          },
+          {
+            "name": "gatsby-plugin-google-fonts",
+            "version": "0.0.3"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^1.0.8"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.14"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.21"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "1.7.10"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^1.5.9"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.33"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.8"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.21"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.14"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.9.4"
+          },
+          {
+            "name": "react-icons",
+            "version": "^2.2.7"
+          },
+          {
+            "name": "react-slick",
+            "version": "0.16.0"
+          },
+          {
+            "name": "slick-carousel",
+            "version": "1.8.1"
+          },
+          {
+            "name": "typography-theme-bootstrap",
+            "version": "0.16.7"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "gh-pages",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.9.2"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c83128ff2aa2045c9756e760d3da32ad",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Gatsby Starter - Ceevee",
+        "author": "Aman Mittal",
+        "description": "A Gatsby.js Starter based on Ceevee by Styleshout"
+      },
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-10-25T01:42:41.269Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d10b83b490a672ec3001bf5b08300f72",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "52602a26e28e12543673338566076380",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 320,
+      "prettySize": "320 B",
+      "modifiedTime": "2018-10-23T19:15:19.219Z",
+      "accessTime": "2018-10-25T01:42:42.996Z",
+      "changeTime": "2018-10-25T01:32:04.463Z",
+      "birthTime": "2018-10-23T19:15:19.202Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777223,
+      "mode": 16877,
+      "nlink": 10,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773302,
+      "blocks": 0,
+      "atimeMs": 1540431762995.5347,
+      "mtimeMs": 1540322119219.2278,
+      "ctimeMs": 1540431124462.991,
+      "birthtimeMs": 1540322119201.6716,
+      "atime": "2018-10-25T01:42:42.996Z",
+      "mtime": "2018-10-23T19:15:19.219Z",
+      "ctime": "2018-10-25T01:32:04.463Z",
+      "birthtime": "2018-10-23T19:15:19.202Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "afb1a3ff8342eb3a889d0598b8d69068",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio",
+      "relativePath": "portfolio",
+      "extension": "",
+      "size": 352,
+      "prettySize": "352 B",
+      "modifiedTime": "2018-10-23T19:15:19.218Z",
+      "accessTime": "2018-10-25T01:42:42.998Z",
+      "changeTime": "2018-10-25T01:32:04.459Z",
+      "birthTime": "2018-10-23T19:15:19.206Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images",
+      "base": "portfolio",
+      "ext": "",
+      "name": "portfolio",
+      "relativeDirectory": "",
+      "dev": 16777223,
+      "mode": 16877,
+      "nlink": 11,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773308,
+      "blocks": 0,
+      "atimeMs": 1540431762997.7246,
+      "mtimeMs": 1540322119218.0715,
+      "ctimeMs": 1540431124458.587,
+      "birthtimeMs": 1540322119205.7332,
+      "atime": "2018-10-25T01:42:42.998Z",
+      "mtime": "2018-10-23T19:15:19.218Z",
+      "ctime": "2018-10-25T01:32:04.459Z",
+      "birthtime": "2018-10-23T19:15:19.206Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7ea21c91b3257dfdd10a41083e1c24fe",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals",
+      "relativePath": "portfolio/modals",
+      "extension": "",
+      "size": 320,
+      "prettySize": "320 B",
+      "modifiedTime": "2018-10-23T19:15:19.217Z",
+      "accessTime": "2018-10-25T01:42:42.999Z",
+      "changeTime": "2018-10-25T01:32:04.454Z",
+      "birthTime": "2018-10-23T19:15:19.211Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio",
+      "base": "modals",
+      "ext": "",
+      "name": "modals",
+      "relativeDirectory": "portfolio",
+      "dev": 16777223,
+      "mode": 16877,
+      "nlink": 10,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773315,
+      "blocks": 0,
+      "atimeMs": 1540431762998.7532,
+      "mtimeMs": 1540322119216.5864,
+      "ctimeMs": 1540431124454.021,
+      "birthtimeMs": 1540322119210.7766,
+      "atime": "2018-10-25T01:42:42.999Z",
+      "mtime": "2018-10-23T19:15:19.217Z",
+      "ctime": "2018-10-25T01:32:04.454Z",
+      "birthtime": "2018-10-23T19:15:19.211Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/loader.gif absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/loader.gif absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b41bfcf37a8a365d2c101c9931bc0e75",
+        "mediaType": "image/gif",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/loader.gif",
+      "relativePath": "loader.gif",
+      "extension": "gif",
+      "size": 3256,
+      "prettySize": "3.26 kB",
+      "modifiedTime": "2018-10-23T19:15:19.205Z",
+      "accessTime": "2018-10-25T01:41:12.260Z",
+      "changeTime": "2018-10-25T01:32:04.415Z",
+      "birthTime": "2018-10-23T19:15:19.205Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images",
+      "base": "loader.gif",
+      "ext": ".gif",
+      "name": "loader",
+      "relativeDirectory": "",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773306,
+      "blocks": 8,
+      "atimeMs": 1540431672260.275,
+      "mtimeMs": 1540322119205.2898,
+      "ctimeMs": 1540431124415.4702,
+      "birthtimeMs": 1540322119205.1782,
+      "atime": "2018-10-25T01:41:12.260Z",
+      "mtime": "2018-10-23T19:15:19.205Z",
+      "ctime": "2018-10-25T01:32:04.415Z",
+      "birthtime": "2018-10-23T19:15:19.205Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/overlay-bg.png absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/overlay-bg.png absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/overlay-bg.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9176109b8b53b0cd9be8b698b720be5e",
+        "mediaType": "image/png",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/overlay-bg.png",
+      "relativePath": "overlay-bg.png",
+      "extension": "png",
+      "size": 935,
+      "prettySize": "935 B",
+      "modifiedTime": "2018-10-23T19:15:19.206Z",
+      "accessTime": "2018-10-25T01:41:12.260Z",
+      "changeTime": "2018-10-25T01:32:04.463Z",
+      "birthTime": "2018-10-23T19:15:19.205Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images",
+      "base": "overlay-bg.png",
+      "ext": ".png",
+      "name": "overlay-bg",
+      "relativeDirectory": "",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773328,
+      "blocks": 8,
+      "atimeMs": 1540431672260.2996,
+      "mtimeMs": 1540322119205.5034,
+      "ctimeMs": 1540431124462.7705,
+      "birthtimeMs": 1540322119205.385,
+      "atime": "2018-10-25T01:41:12.260Z",
+      "mtime": "2018-10-23T19:15:19.206Z",
+      "ctime": "2018-10-25T01:32:04.463Z",
+      "birthtime": "2018-10-23T19:15:19.205Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/overlay-zoom.png absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/overlay-zoom.png absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/overlay-zoom.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a7d6622a9770d821ce7244048eb81b4c",
+        "mediaType": "image/png",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/overlay-zoom.png",
+      "relativePath": "overlay-zoom.png",
+      "extension": "png",
+      "size": 2824,
+      "prettySize": "2.82 kB",
+      "modifiedTime": "2018-10-23T19:15:19.206Z",
+      "accessTime": "2018-10-25T01:41:12.260Z",
+      "changeTime": "2018-10-25T01:32:04.411Z",
+      "birthTime": "2018-10-23T19:15:19.206Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images",
+      "base": "overlay-zoom.png",
+      "ext": ".png",
+      "name": "overlay-zoom",
+      "relativeDirectory": "",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773304,
+      "blocks": 8,
+      "atimeMs": 1540431672260.3232,
+      "mtimeMs": 1540322119205.652,
+      "ctimeMs": 1540431124411.0273,
+      "birthtimeMs": 1540322119205.5964,
+      "atime": "2018-10-25T01:41:12.260Z",
+      "mtime": "2018-10-23T19:15:19.206Z",
+      "ctime": "2018-10-25T01:32:04.411Z",
+      "birthtime": "2018-10-23T19:15:19.206Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/profilepic.jpg absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/profilepic.jpg absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/profilepic.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7e773edecdc38561e4d4bcd2606811f3",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/profilepic.jpg",
+      "relativePath": "profilepic.jpg",
+      "extension": "jpg",
+      "size": 6766,
+      "prettySize": "6.77 kB",
+      "modifiedTime": "2018-10-23T19:15:19.219Z",
+      "accessTime": "2018-10-25T01:41:12.261Z",
+      "changeTime": "2018-10-25T01:32:04.413Z",
+      "birthTime": "2018-10-23T19:15:19.219Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images",
+      "base": "profilepic.jpg",
+      "ext": ".jpg",
+      "name": "profilepic",
+      "relativeDirectory": "",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773305,
+      "blocks": 16,
+      "atimeMs": 1540431672260.9219,
+      "mtimeMs": 1540322119218.7903,
+      "ctimeMs": 1540431124413.2422,
+      "birthtimeMs": 1540322119218.7224,
+      "atime": "2018-10-25T01:41:12.261Z",
+      "mtime": "2018-10-23T19:15:19.219Z",
+      "ctime": "2018-10-25T01:32:04.413Z",
+      "birthtime": "2018-10-23T19:15:19.219Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/sample-image.jpg absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/sample-image.jpg absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/sample-image.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a6a76c7e087849f9223e1839338779e9",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/sample-image.jpg",
+      "relativePath": "sample-image.jpg",
+      "extension": "jpg",
+      "size": 26133,
+      "prettySize": "26.1 kB",
+      "modifiedTime": "2018-10-23T19:15:19.219Z",
+      "accessTime": "2018-10-25T01:41:12.261Z",
+      "changeTime": "2018-10-25T01:32:04.461Z",
+      "birthTime": "2018-10-23T19:15:19.219Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images",
+      "base": "sample-image.jpg",
+      "ext": ".jpg",
+      "name": "sample-image",
+      "relativeDirectory": "",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773327,
+      "blocks": 56,
+      "atimeMs": 1540431672260.9426,
+      "mtimeMs": 1540322119219.113,
+      "ctimeMs": 1540431124460.6094,
+      "birthtimeMs": 1540322119218.9167,
+      "atime": "2018-10-25T01:41:12.261Z",
+      "mtime": "2018-10-23T19:15:19.219Z",
+      "ctime": "2018-10-25T01:32:04.461Z",
+      "birthtime": "2018-10-23T19:15:19.219Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-coffee.jpg absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-coffee.jpg absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-coffee.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9a5510b73fa8e35066c047347b3e02e3",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-coffee.jpg",
+      "relativePath": "portfolio/modals/m-coffee.jpg",
+      "extension": "jpg",
+      "size": 59618,
+      "prettySize": "59.6 kB",
+      "modifiedTime": "2018-10-23T19:15:19.211Z",
+      "accessTime": "2018-10-25T01:41:12.261Z",
+      "changeTime": "2018-10-25T01:32:04.454Z",
+      "birthTime": "2018-10-23T19:15:19.211Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals",
+      "base": "m-coffee.jpg",
+      "ext": ".jpg",
+      "name": "m-coffee",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773324,
+      "blocks": 120,
+      "atimeMs": 1540431672260.5818,
+      "mtimeMs": 1540322119211.2512,
+      "ctimeMs": 1540431124453.735,
+      "birthtimeMs": 1540322119210.8381,
+      "atime": "2018-10-25T01:41:12.261Z",
+      "mtime": "2018-10-23T19:15:19.211Z",
+      "ctime": "2018-10-25T01:32:04.454Z",
+      "birthtime": "2018-10-23T19:15:19.211Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/console.jpg absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/console.jpg absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/console.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "10a557caba8bdbb1f030609c669e4314",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/console.jpg",
+      "relativePath": "portfolio/console.jpg",
+      "extension": "jpg",
+      "size": 104406,
+      "prettySize": "104 kB",
+      "modifiedTime": "2018-10-23T19:15:19.207Z",
+      "accessTime": "2018-10-25T01:41:12.260Z",
+      "changeTime": "2018-10-25T01:32:04.456Z",
+      "birthTime": "2018-10-23T19:15:19.206Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio",
+      "base": "console.jpg",
+      "ext": ".jpg",
+      "name": "console",
+      "relativeDirectory": "portfolio",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773325,
+      "blocks": 208,
+      "atimeMs": 1540431672260.3904,
+      "mtimeMs": 1540322119206.6858,
+      "ctimeMs": 1540431124455.9766,
+      "birthtimeMs": 1540322119206.2002,
+      "atime": "2018-10-25T01:41:12.260Z",
+      "mtime": "2018-10-23T19:15:19.207Z",
+      "ctime": "2018-10-25T01:32:04.456Z",
+      "birthtime": "2018-10-23T19:15:19.206Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/coffee.jpg absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/coffee.jpg absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/coffee.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "de06f5d908fc33bb083d947ca23d0a7f",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/coffee.jpg",
+      "relativePath": "portfolio/coffee.jpg",
+      "extension": "jpg",
+      "size": 75261,
+      "prettySize": "75.3 kB",
+      "modifiedTime": "2018-10-23T19:15:19.206Z",
+      "accessTime": "2018-10-25T01:41:12.260Z",
+      "changeTime": "2018-10-25T01:32:04.422Z",
+      "birthTime": "2018-10-23T19:15:19.206Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio",
+      "base": "coffee.jpg",
+      "ext": ".jpg",
+      "name": "coffee",
+      "relativeDirectory": "portfolio",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773309,
+      "blocks": 152,
+      "atimeMs": 1540431672260.3586,
+      "mtimeMs": 1540322119206.1216,
+      "ctimeMs": 1540431124421.5105,
+      "birthtimeMs": 1540322119205.7822,
+      "atime": "2018-10-25T01:41:12.260Z",
+      "mtime": "2018-10-23T19:15:19.206Z",
+      "ctime": "2018-10-25T01:32:04.422Z",
+      "birthtime": "2018-10-23T19:15:19.206Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/into-the-light.jpg absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/into-the-light.jpg absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/into-the-light.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3445f11c05b5a0608b39f3b2cbb0bbf4",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/into-the-light.jpg",
+      "relativePath": "portfolio/into-the-light.jpg",
+      "extension": "jpg",
+      "size": 102255,
+      "prettySize": "102 kB",
+      "modifiedTime": "2018-10-23T19:15:19.210Z",
+      "accessTime": "2018-10-25T01:41:12.260Z",
+      "changeTime": "2018-10-25T01:32:04.428Z",
+      "birthTime": "2018-10-23T19:15:19.209Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio",
+      "base": "into-the-light.jpg",
+      "ext": ".jpg",
+      "name": "into-the-light",
+      "relativeDirectory": "portfolio",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773312,
+      "blocks": 200,
+      "atimeMs": 1540431672260.499,
+      "mtimeMs": 1540322119210.0278,
+      "ctimeMs": 1540431124428.3435,
+      "birthtimeMs": 1540322119209.3198,
+      "atime": "2018-10-25T01:41:12.260Z",
+      "mtime": "2018-10-23T19:15:19.210Z",
+      "ctime": "2018-10-25T01:32:04.428Z",
+      "birthtime": "2018-10-23T19:15:19.209Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/origami.jpg absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/origami.jpg absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/origami.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5bb3df6308eaa82bdf74a53d339f6b86",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/origami.jpg",
+      "relativePath": "portfolio/origami.jpg",
+      "extension": "jpg",
+      "size": 83530,
+      "prettySize": "83.5 kB",
+      "modifiedTime": "2018-10-23T19:15:19.218Z",
+      "accessTime": "2018-10-25T01:41:12.261Z",
+      "changeTime": "2018-10-25T01:32:04.458Z",
+      "birthTime": "2018-10-23T19:15:19.217Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio",
+      "base": "origami.jpg",
+      "ext": ".jpg",
+      "name": "origami",
+      "relativeDirectory": "portfolio",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773326,
+      "blocks": 168,
+      "atimeMs": 1540431672260.8608,
+      "mtimeMs": 1540322119217.991,
+      "ctimeMs": 1540431124458.3582,
+      "birthtimeMs": 1540322119217.4685,
+      "atime": "2018-10-25T01:41:12.261Z",
+      "mtime": "2018-10-23T19:15:19.218Z",
+      "ctime": "2018-10-25T01:32:04.458Z",
+      "birthtime": "2018-10-23T19:15:19.217Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-intothelight.jpg absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-intothelight.jpg absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-intothelight.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f20aeacdaa64a9eb8f9eef9554245d48",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-intothelight.jpg",
+      "relativePath": "portfolio/modals/m-intothelight.jpg",
+      "extension": "jpg",
+      "size": 112530,
+      "prettySize": "113 kB",
+      "modifiedTime": "2018-10-23T19:15:19.215Z",
+      "accessTime": "2018-10-25T01:41:12.261Z",
+      "changeTime": "2018-10-25T01:32:04.443Z",
+      "birthTime": "2018-10-23T19:15:19.214Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals",
+      "base": "m-intothelight.jpg",
+      "ext": ".jpg",
+      "name": "m-intothelight",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773319,
+      "blocks": 224,
+      "atimeMs": 1540431672260.7302,
+      "mtimeMs": 1540322119215.1238,
+      "ctimeMs": 1540431124442.942,
+      "birthtimeMs": 1540322119214.4653,
+      "atime": "2018-10-25T01:41:12.261Z",
+      "mtime": "2018-10-23T19:15:19.215Z",
+      "ctime": "2018-10-25T01:32:04.443Z",
+      "birthtime": "2018-10-23T19:15:19.214Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-origami.jpg absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-origami.jpg absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-origami.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0f03a9bee6e8f1f6b48007d6c096dad9",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-origami.jpg",
+      "relativePath": "portfolio/modals/m-origami.jpg",
+      "extension": "jpg",
+      "size": 77689,
+      "prettySize": "77.7 kB",
+      "modifiedTime": "2018-10-23T19:15:19.216Z",
+      "accessTime": "2018-10-25T01:41:12.261Z",
+      "changeTime": "2018-10-25T01:32:04.445Z",
+      "birthTime": "2018-10-23T19:15:19.216Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals",
+      "base": "m-origami.jpg",
+      "ext": ".jpg",
+      "name": "m-origami",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773320,
+      "blocks": 152,
+      "atimeMs": 1540431672260.7993,
+      "mtimeMs": 1540322119216.4675,
+      "ctimeMs": 1540431124445.1436,
+      "birthtimeMs": 1540322119216.0105,
+      "atime": "2018-10-25T01:41:12.261Z",
+      "mtime": "2018-10-23T19:15:19.216Z",
+      "ctime": "2018-10-25T01:32:04.445Z",
+      "birthtime": "2018-10-23T19:15:19.216Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/overlay-bg.png absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/overlay-bg.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/overlay-bg.png absPath of file",
+      "internal": {
+        "contentDigest": "9176109b8b53b0cd9be8b698b720be5e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/overlay-zoom.png absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/overlay-zoom.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/overlay-zoom.png absPath of file",
+      "internal": {
+        "contentDigest": "a7d6622a9770d821ce7244048eb81b4c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/profilepic.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/profilepic.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/profilepic.jpg absPath of file",
+      "internal": {
+        "contentDigest": "7e773edecdc38561e4d4bcd2606811f3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/sample-image.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/sample-image.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/sample-image.jpg absPath of file",
+      "internal": {
+        "contentDigest": "a6a76c7e087849f9223e1839338779e9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-coffee.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-coffee.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-coffee.jpg absPath of file",
+      "internal": {
+        "contentDigest": "9a5510b73fa8e35066c047347b3e02e3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/farmerboy.jpg absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/farmerboy.jpg absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/farmerboy.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ac51137c942715b7decebd1e166080df",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/farmerboy.jpg",
+      "relativePath": "portfolio/farmerboy.jpg",
+      "extension": "jpg",
+      "size": 190044,
+      "prettySize": "190 kB",
+      "modifiedTime": "2018-10-23T19:15:19.208Z",
+      "accessTime": "2018-10-25T01:41:12.260Z",
+      "changeTime": "2018-10-25T01:32:04.424Z",
+      "birthTime": "2018-10-23T19:15:19.207Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio",
+      "base": "farmerboy.jpg",
+      "ext": ".jpg",
+      "name": "farmerboy",
+      "relativeDirectory": "portfolio",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773310,
+      "blocks": 376,
+      "atimeMs": 1540431672260.4243,
+      "mtimeMs": 1540322119208.171,
+      "ctimeMs": 1540431124423.733,
+      "birthtimeMs": 1540322119206.7605,
+      "atime": "2018-10-25T01:41:12.260Z",
+      "mtime": "2018-10-23T19:15:19.208Z",
+      "ctime": "2018-10-25T01:32:04.424Z",
+      "birthtime": "2018-10-23T19:15:19.207Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/girl.jpg absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/girl.jpg absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/girl.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a95478b7f3fbeb159495ca2d36a6ccb7",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/girl.jpg",
+      "relativePath": "portfolio/girl.jpg",
+      "extension": "jpg",
+      "size": 150080,
+      "prettySize": "150 kB",
+      "modifiedTime": "2018-10-23T19:15:19.209Z",
+      "accessTime": "2018-10-25T01:41:12.260Z",
+      "changeTime": "2018-10-25T01:32:04.431Z",
+      "birthTime": "2018-10-23T19:15:19.208Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio",
+      "base": "girl.jpg",
+      "ext": ".jpg",
+      "name": "girl",
+      "relativeDirectory": "portfolio",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773313,
+      "blocks": 296,
+      "atimeMs": 1540431672260.4631,
+      "mtimeMs": 1540322119209.1357,
+      "ctimeMs": 1540431124431.3232,
+      "birthtimeMs": 1540322119208.361,
+      "atime": "2018-10-25T01:41:12.260Z",
+      "mtime": "2018-10-23T19:15:19.209Z",
+      "ctime": "2018-10-25T01:32:04.431Z",
+      "birthtime": "2018-10-23T19:15:19.208Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/retrocam.jpg absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/retrocam.jpg absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/retrocam.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "522192d97b644075d576df8f7f58f3a0",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/retrocam.jpg",
+      "relativePath": "portfolio/retrocam.jpg",
+      "extension": "jpg",
+      "size": 176219,
+      "prettySize": "176 kB",
+      "modifiedTime": "2018-10-23T19:15:19.219Z",
+      "accessTime": "2018-10-25T01:41:12.261Z",
+      "changeTime": "2018-10-25T01:32:04.426Z",
+      "birthTime": "2018-10-23T19:15:19.218Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio",
+      "base": "retrocam.jpg",
+      "ext": ".jpg",
+      "name": "retrocam",
+      "relativeDirectory": "portfolio",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773311,
+      "blocks": 352,
+      "atimeMs": 1540431672260.8882,
+      "mtimeMs": 1540322119218.6187,
+      "ctimeMs": 1540431124425.9675,
+      "birthtimeMs": 1540322119218.0657,
+      "atime": "2018-10-25T01:41:12.261Z",
+      "mtime": "2018-10-23T19:15:19.219Z",
+      "ctime": "2018-10-25T01:32:04.426Z",
+      "birthtime": "2018-10-23T19:15:19.218Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-console.jpg absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-console.jpg absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-console.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "dc53e451be2267be73395b7022b23956",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-console.jpg",
+      "relativePath": "portfolio/modals/m-console.jpg",
+      "extension": "jpg",
+      "size": 195994,
+      "prettySize": "196 kB",
+      "modifiedTime": "2018-10-23T19:15:19.212Z",
+      "accessTime": "2018-10-25T01:41:12.261Z",
+      "changeTime": "2018-10-25T01:32:04.441Z",
+      "birthTime": "2018-10-23T19:15:19.211Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals",
+      "base": "m-console.jpg",
+      "ext": ".jpg",
+      "name": "m-console",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773318,
+      "blocks": 384,
+      "atimeMs": 1540431672260.612,
+      "mtimeMs": 1540322119212.1265,
+      "ctimeMs": 1540431124440.613,
+      "birthtimeMs": 1540322119211.3718,
+      "atime": "2018-10-25T01:41:12.261Z",
+      "mtime": "2018-10-23T19:15:19.212Z",
+      "ctime": "2018-10-25T01:32:04.441Z",
+      "birthtime": "2018-10-23T19:15:19.211Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/console.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/console.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/console.jpg absPath of file",
+      "internal": {
+        "contentDigest": "10a557caba8bdbb1f030609c669e4314",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/coffee.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/coffee.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/coffee.jpg absPath of file",
+      "internal": {
+        "contentDigest": "de06f5d908fc33bb083d947ca23d0a7f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/into-the-light.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/into-the-light.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/into-the-light.jpg absPath of file",
+      "internal": {
+        "contentDigest": "3445f11c05b5a0608b39f3b2cbb0bbf4",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/origami.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/origami.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/origami.jpg absPath of file",
+      "internal": {
+        "contentDigest": "5bb3df6308eaa82bdf74a53d339f6b86",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-intothelight.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-intothelight.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-intothelight.jpg absPath of file",
+      "internal": {
+        "contentDigest": "f20aeacdaa64a9eb8f9eef9554245d48",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-origami.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-origami.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-origami.jpg absPath of file",
+      "internal": {
+        "contentDigest": "0f03a9bee6e8f1f6b48007d6c096dad9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/judah.jpg absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/judah.jpg absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/judah.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f5bf96d39756b9a7267076a3b81a5e98",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/judah.jpg",
+      "relativePath": "portfolio/judah.jpg",
+      "extension": "jpg",
+      "size": 197288,
+      "prettySize": "197 kB",
+      "modifiedTime": "2018-10-23T19:15:19.211Z",
+      "accessTime": "2018-10-25T01:41:12.261Z",
+      "changeTime": "2018-10-25T01:32:04.434Z",
+      "birthTime": "2018-10-23T19:15:19.210Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio",
+      "base": "judah.jpg",
+      "ext": ".jpg",
+      "name": "judah",
+      "relativeDirectory": "portfolio",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773314,
+      "blocks": 392,
+      "atimeMs": 1540431672260.5312,
+      "mtimeMs": 1540322119210.6765,
+      "ctimeMs": 1540431124433.9531,
+      "birthtimeMs": 1540322119210.112,
+      "atime": "2018-10-25T01:41:12.261Z",
+      "mtime": "2018-10-23T19:15:19.211Z",
+      "ctime": "2018-10-25T01:32:04.434Z",
+      "birthtime": "2018-10-23T19:15:19.210Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-farmerboy.jpg absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-farmerboy.jpg absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-farmerboy.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "38ce1edce458e6aa5b93aae738cd8caa",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-farmerboy.jpg",
+      "relativePath": "portfolio/modals/m-farmerboy.jpg",
+      "extension": "jpg",
+      "size": 252567,
+      "prettySize": "253 kB",
+      "modifiedTime": "2018-10-23T19:15:19.214Z",
+      "accessTime": "2018-10-25T01:41:12.261Z",
+      "changeTime": "2018-10-25T01:32:04.452Z",
+      "birthTime": "2018-10-23T19:15:19.212Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals",
+      "base": "m-farmerboy.jpg",
+      "ext": ".jpg",
+      "name": "m-farmerboy",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773323,
+      "blocks": 496,
+      "atimeMs": 1540431672260.656,
+      "mtimeMs": 1540322119213.578,
+      "ctimeMs": 1540431124451.575,
+      "birthtimeMs": 1540322119212.2146,
+      "atime": "2018-10-25T01:41:12.261Z",
+      "mtime": "2018-10-23T19:15:19.214Z",
+      "ctime": "2018-10-25T01:32:04.452Z",
+      "birthtime": "2018-10-23T19:15:19.212Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-girl.jpg absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-girl.jpg absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-girl.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "cca489424290988698ceb5e8c5552189",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-girl.jpg",
+      "relativePath": "portfolio/modals/m-girl.jpg",
+      "extension": "jpg",
+      "size": 231027,
+      "prettySize": "231 kB",
+      "modifiedTime": "2018-10-23T19:15:19.214Z",
+      "accessTime": "2018-10-25T01:41:12.261Z",
+      "changeTime": "2018-10-25T01:32:04.447Z",
+      "birthTime": "2018-10-23T19:15:19.214Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals",
+      "base": "m-girl.jpg",
+      "ext": ".jpg",
+      "name": "m-girl",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773321,
+      "blocks": 456,
+      "atimeMs": 1540431672260.6936,
+      "mtimeMs": 1540322119214.359,
+      "ctimeMs": 1540431124447.283,
+      "birthtimeMs": 1540322119213.683,
+      "atime": "2018-10-25T01:41:12.261Z",
+      "mtime": "2018-10-23T19:15:19.214Z",
+      "ctime": "2018-10-25T01:32:04.447Z",
+      "birthtime": "2018-10-23T19:15:19.214Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-retrocam.jpg absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-retrocam.jpg absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-retrocam.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "91b65a93128ed7ef064fad7cdf859e69",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-retrocam.jpg",
+      "relativePath": "portfolio/modals/m-retrocam.jpg",
+      "extension": "jpg",
+      "size": 214981,
+      "prettySize": "215 kB",
+      "modifiedTime": "2018-10-23T19:15:19.217Z",
+      "accessTime": "2018-10-25T01:41:12.261Z",
+      "changeTime": "2018-10-25T01:32:04.449Z",
+      "birthTime": "2018-10-23T19:15:19.217Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals",
+      "base": "m-retrocam.jpg",
+      "ext": ".jpg",
+      "name": "m-retrocam",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773322,
+      "blocks": 424,
+      "atimeMs": 1540431672260.826,
+      "mtimeMs": 1540322119217.366,
+      "ctimeMs": 1540431124449.3928,
+      "birthtimeMs": 1540322119216.5784,
+      "atime": "2018-10-25T01:41:12.261Z",
+      "mtime": "2018-10-23T19:15:19.217Z",
+      "ctime": "2018-10-25T01:32:04.449Z",
+      "birthtime": "2018-10-23T19:15:19.217Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/farmerboy.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/farmerboy.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/farmerboy.jpg absPath of file",
+      "internal": {
+        "contentDigest": "ac51137c942715b7decebd1e166080df",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/girl.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/girl.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/girl.jpg absPath of file",
+      "internal": {
+        "contentDigest": "a95478b7f3fbeb159495ca2d36a6ccb7",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/retrocam.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/retrocam.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/retrocam.jpg absPath of file",
+      "internal": {
+        "contentDigest": "522192d97b644075d576df8f7f58f3a0",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-console.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-console.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-console.jpg absPath of file",
+      "internal": {
+        "contentDigest": "dc53e451be2267be73395b7022b23956",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-judah.jpg absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-judah.jpg absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-judah.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d0599ca57ac4b7531f0d4c30fdc7a2b9",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-judah.jpg",
+      "relativePath": "portfolio/modals/m-judah.jpg",
+      "extension": "jpg",
+      "size": 296894,
+      "prettySize": "297 kB",
+      "modifiedTime": "2018-10-23T19:15:19.216Z",
+      "accessTime": "2018-10-25T01:41:12.261Z",
+      "changeTime": "2018-10-25T01:32:04.438Z",
+      "birthTime": "2018-10-23T19:15:19.215Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals",
+      "base": "m-judah.jpg",
+      "ext": ".jpg",
+      "name": "m-judah",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773317,
+      "blocks": 584,
+      "atimeMs": 1540431672260.7598,
+      "mtimeMs": 1540322119215.9058,
+      "ctimeMs": 1540431124438.2988,
+      "birthtimeMs": 1540322119215.2034,
+      "atime": "2018-10-25T01:41:12.261Z",
+      "mtime": "2018-10-23T19:15:19.216Z",
+      "ctime": "2018-10-25T01:32:04.438Z",
+      "birthtime": "2018-10-23T19:15:19.215Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/judah.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/judah.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/judah.jpg absPath of file",
+      "internal": {
+        "contentDigest": "f5bf96d39756b9a7267076a3b81a5e98",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-farmerboy.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-farmerboy.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-farmerboy.jpg absPath of file",
+      "internal": {
+        "contentDigest": "38ce1edce458e6aa5b93aae738cd8caa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-girl.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-girl.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-girl.jpg absPath of file",
+      "internal": {
+        "contentDigest": "cca489424290988698ceb5e8c5552189",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-retrocam.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-retrocam.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-retrocam.jpg absPath of file",
+      "internal": {
+        "contentDigest": "91b65a93128ed7ef064fad7cdf859e69",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-judah.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-judah.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/portfolio/modals/m-judah.jpg absPath of file",
+      "internal": {
+        "contentDigest": "d0599ca57ac4b7531f0d4c30fdc7a2b9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/header-background.jpg absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/header-background.jpg absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/header-background.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "395df93f3a2d8a841031e95505e05fa4",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/header-background.jpg",
+      "relativePath": "header-background.jpg",
+      "extension": "jpg",
+      "size": 534867,
+      "prettySize": "535 kB",
+      "modifiedTime": "2018-10-23T19:15:19.205Z",
+      "accessTime": "2018-10-25T01:41:12.260Z",
+      "changeTime": "2018-10-25T01:32:04.418Z",
+      "birthTime": "2018-10-23T19:15:19.202Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images",
+      "base": "header-background.jpg",
+      "ext": ".jpg",
+      "name": "header-background",
+      "relativeDirectory": "",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773307,
+      "blocks": 1048,
+      "atimeMs": 1540431672260.211,
+      "mtimeMs": 1540322119204.9111,
+      "ctimeMs": 1540431124417.6724,
+      "birthtimeMs": 1540322119201.7166,
+      "atime": "2018-10-25T01:41:12.260Z",
+      "mtime": "2018-10-23T19:15:19.205Z",
+      "ctime": "2018-10-25T01:32:04.418Z",
+      "birthtime": "2018-10-23T19:15:19.202Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/header-background.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/header-background.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/header-background.jpg absPath of file",
+      "internal": {
+        "contentDigest": "395df93f3a2d8a841031e95505e05fa4",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/testimonials-bg.jpg absPath of file": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/testimonials-bg.jpg absPath of file",
+      "children": [
+        "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/testimonials-bg.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f063209a66807e69329fada1e2590674",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/testimonials-bg.jpg",
+      "relativePath": "testimonials-bg.jpg",
+      "extension": "jpg",
+      "size": 812011,
+      "prettySize": "812 kB",
+      "modifiedTime": "2018-10-23T19:15:19.224Z",
+      "accessTime": "2018-10-25T01:41:12.261Z",
+      "changeTime": "2018-10-25T01:32:04.409Z",
+      "birthTime": "2018-10-23T19:15:19.219Z",
+      "root": "/",
+      "dir": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images",
+      "base": "testimonials-bg.jpg",
+      "ext": ".jpg",
+      "name": "testimonials-bg",
+      "relativeDirectory": "",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600773303,
+      "blocks": 1592,
+      "atimeMs": 1540431672260.9639,
+      "mtimeMs": 1540322119224.3232,
+      "ctimeMs": 1540431124408.6675,
+      "birthtimeMs": 1540322119219.2217,
+      "atime": "2018-10-25T01:41:12.261Z",
+      "mtime": "2018-10-23T19:15:19.224Z",
+      "ctime": "2018-10-25T01:32:04.409Z",
+      "birthtime": "2018-10-23T19:15:19.219Z"
+    },
+    "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/testimonials-bg.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/testimonials-bg.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/annagassen/Desktop/astroanna.github.io/src/assets/images/testimonials-bg.jpg absPath of file",
+      "internal": {
+        "contentDigest": "f063209a66807e69329fada1e2590674",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/annagassen/Desktop/astroanna.github.io/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "updatedAt": 1540431763235,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/annagassen/Desktop/astroanna.github.io/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e410f98bd82b46c49e1bbf9583689f91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/annagassen/Desktop/astroanna.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "updatedAt": 1540431763236,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/annagassen/Desktop/astroanna.github.io/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0471e8f3a8bfe06d497135b8db12d8c1",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/annagassen/Desktop/astroanna.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "updatedAt": 1540431763238,
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/annagassen/Desktop/astroanna.github.io/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "468e28269866f01732bc4ee42cf3f412",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "ae243c2b5d6741aeb6866b3f779985fc"
+  },
+  "componentDataDependencies": {
+    "nodes": {},
+    "connections": {}
+  }
+}

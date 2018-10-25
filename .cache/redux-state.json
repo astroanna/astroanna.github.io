@@ -1145,12 +1145,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-25T01:42:41.269Z",
+      "buildTime": "2018-10-25T02:08:30.044Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d10b83b490a672ec3001bf5b08300f72",
+        "contentDigest": "e3ebc94211314bdc3a63a8d9f397462b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1160,7 +1160,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "52602a26e28e12543673338566076380",
+        "contentDigest": "351a3cb0bb8cb69a44c790ee294eecef",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1171,7 +1171,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2018-10-23T19:15:19.219Z",
-      "accessTime": "2018-10-25T01:42:42.996Z",
+      "accessTime": "2018-10-25T02:08:32.378Z",
       "changeTime": "2018-10-25T01:32:04.463Z",
       "birthTime": "2018-10-23T19:15:19.202Z",
       "root": "/",
@@ -1189,11 +1189,11 @@
       "blksize": 4194304,
       "ino": 8600773302,
       "blocks": 0,
-      "atimeMs": 1540431762995.5347,
+      "atimeMs": 1540433312378.0361,
       "mtimeMs": 1540322119219.2278,
       "ctimeMs": 1540431124462.991,
       "birthtimeMs": 1540322119201.6716,
-      "atime": "2018-10-25T01:42:42.996Z",
+      "atime": "2018-10-25T02:08:32.378Z",
       "mtime": "2018-10-23T19:15:19.219Z",
       "ctime": "2018-10-25T01:32:04.463Z",
       "birthtime": "2018-10-23T19:15:19.202Z"
@@ -1203,7 +1203,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "afb1a3ff8342eb3a889d0598b8d69068",
+        "contentDigest": "ddf7b1ebbcef9ebeb39e969bf3c745bd",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1214,7 +1214,7 @@
       "size": 352,
       "prettySize": "352 B",
       "modifiedTime": "2018-10-23T19:15:19.218Z",
-      "accessTime": "2018-10-25T01:42:42.998Z",
+      "accessTime": "2018-10-25T02:08:32.465Z",
       "changeTime": "2018-10-25T01:32:04.459Z",
       "birthTime": "2018-10-23T19:15:19.206Z",
       "root": "/",
@@ -1232,11 +1232,11 @@
       "blksize": 4194304,
       "ino": 8600773308,
       "blocks": 0,
-      "atimeMs": 1540431762997.7246,
+      "atimeMs": 1540433312464.6953,
       "mtimeMs": 1540322119218.0715,
       "ctimeMs": 1540431124458.587,
       "birthtimeMs": 1540322119205.7332,
-      "atime": "2018-10-25T01:42:42.998Z",
+      "atime": "2018-10-25T02:08:32.465Z",
       "mtime": "2018-10-23T19:15:19.218Z",
       "ctime": "2018-10-25T01:32:04.459Z",
       "birthtime": "2018-10-23T19:15:19.206Z"
@@ -1246,7 +1246,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "7ea21c91b3257dfdd10a41083e1c24fe",
+        "contentDigest": "f14b8a940c6b1be47e18f818599fa78a",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1257,7 +1257,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2018-10-23T19:15:19.217Z",
-      "accessTime": "2018-10-25T01:42:42.999Z",
+      "accessTime": "2018-10-25T02:08:32.485Z",
       "changeTime": "2018-10-25T01:32:04.454Z",
       "birthTime": "2018-10-23T19:15:19.211Z",
       "root": "/",
@@ -1275,11 +1275,11 @@
       "blksize": 4194304,
       "ino": 8600773315,
       "blocks": 0,
-      "atimeMs": 1540431762998.7532,
+      "atimeMs": 1540433312485.3604,
       "mtimeMs": 1540322119216.5864,
       "ctimeMs": 1540431124454.021,
       "birthtimeMs": 1540322119210.7766,
-      "atime": "2018-10-25T01:42:42.999Z",
+      "atime": "2018-10-25T02:08:32.485Z",
       "mtime": "2018-10-23T19:15:19.217Z",
       "ctime": "2018-10-25T01:32:04.454Z",
       "birthtime": "2018-10-23T19:15:19.211Z"
@@ -2560,27 +2560,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/annagassen/Desktop/astroanna.github.io/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "updatedAt": 1540431763235,
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/annagassen/Desktop/astroanna.github.io/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "e410f98bd82b46c49e1bbf9583689f91",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /404/": {
       "layout": "index",
       "jsonName": "404.json",
@@ -2589,7 +2568,7 @@
       "component": "/Users/annagassen/Desktop/astroanna.github.io/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1540431763236,
+      "updatedAt": 1540433312785,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/annagassen/Desktop/astroanna.github.io/src/pages/404.js",
@@ -2598,7 +2577,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0471e8f3a8bfe06d497135b8db12d8c1",
+        "contentDigest": "4d6e1468995b6c52c87c1e1cddf8b6e9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/annagassen/Desktop/astroanna.github.io/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "updatedAt": 1540433312786,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/annagassen/Desktop/astroanna.github.io/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c0557064a3a2c5260807e7cf6b85a8de",
         "owner": "internal-data-bridge"
       }
     },
@@ -2610,7 +2610,7 @@
       "component": "/Users/annagassen/Desktop/astroanna.github.io/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1540431763238,
+      "updatedAt": 1540433312789,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "/Users/annagassen/Desktop/astroanna.github.io/src/pages/404.js",
@@ -2619,7 +2619,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "468e28269866f01732bc4ee42cf3f412",
+        "contentDigest": "94992c133da8fee4e0ca374d6d249584",
         "owner": "internal-data-bridge"
       }
     }
@@ -2630,6 +2630,10 @@
   },
   "componentDataDependencies": {
     "nodes": {},
-    "connections": {}
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
   }
 }
